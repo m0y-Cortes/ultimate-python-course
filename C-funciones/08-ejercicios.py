@@ -11,3 +11,11 @@ Casos de ejemplo:
 •Si tienes una cuenta de $1000 y un descuento del 20%, el resultado debe ser $800.
 •¿Qué pasa si aplicas un descuento del 0%? ¿Y del 100%?
 """
+def aplicar_desc(prec, desc):
+    nuevo_precio = prec * (100 - desc) / 100
+    return nuevo_precio
+
+precio = int(input("Precio del producto: $"))
+descuento = int(input("% de descuento: %"))
+print("Precio con descuento aplicado: $", aplicar_desc(precio, descuento))
+
