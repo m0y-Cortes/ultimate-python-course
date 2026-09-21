@@ -15,7 +15,6 @@ def agregar_producto(nombre, catalogo, lista):
         return
     precio = catalogo[nombre]
     lista.append({"nombre": nombre, "precio": precio})
-    print(lista)
     return
 
 def generar_ticket(productos):

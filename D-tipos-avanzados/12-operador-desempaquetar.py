@@ -1,6 +1,6 @@
 lista1 = [1, 2, 3, 4]
 print(lista1) #Imprime la lista como tal
-print(*lista1) #Imprime cada elemento de unobjeto iterable
+print(*lista1) #Imprime cada elemento de un objeto iterable
 lista2 = [5, 6]
 combinada = ["Hola", *lista1, "Mundo", *lista2] #Deja de ser una lista de listas ya que pasas los elementos desempaquetados y no listas
 #print(combinada)
